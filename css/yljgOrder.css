@@ -1,0 +1,369 @@
+.editorState>b{
+    display:block;
+    width:1rem;
+    float:right;
+    margin-top:1rem;
+}
+.firstNav,.secondNav{
+    display: flex;
+    display: -webkit-box;
+    height: 2.5rem;
+    border-bottom: 1px solid #F1F1F1;
+    background: #fff;
+}
+.secondNav{
+    border-bottom:1px solid #FACBB8;
+    overflow-x:scroll;
+    min-width:100vw;
+}
+.firstNav{
+    position: fixed;
+    width: 100%;
+    top: 3rem;
+    z-index:50;
+}
+.firstNav>a{
+    flex:1;
+    -webkit-box-flex:1;
+}
+.secondNavBox{
+    position:fixed;
+    top:5.5rem;
+    width:100%;
+}
+.secondNav::-webkit-scrollbar{
+    display:none;
+}
+.firstNav>a,.secondNav>a{
+    display:block;
+    /*flex:1;*/
+    /*-webkit-box-flex:1;*/
+    text-align:center;
+    height:inherit;
+    line-height:2.5rem;
+    width:25%;
+}
+.firstItem{
+    font-size:1rem;
+    color:#000;
+}
+.secondItem{
+    font-size:.8rem;
+    color:#999999;
+    border-right:1px solid #F1F1F1;
+}
+.secondItem:last-child{
+    border-right:none;
+}
+.yljgOrderYlyName{
+    font-size:1rem;
+    font-weight:400;
+    padding:.5rem;
+}
+.choiceIco{
+    display:inline-block;
+    width:1.2rem;
+    position:relative;
+    top:.2rem;
+    margin-right:.5rem;
+}
+.choiceIco>input{
+    position:absolute;
+    width:1.2rem;
+    top:0;
+    display:block;
+    height:1.2rem;
+    opacity:0;
+}
+.ylyList{
+    margin-top:.5rem;
+    border-bottom:1px solid #D4D4D4;
+}
+.ylyList:last-child{
+    border-bottom:none;
+}
+.yljgOrderYlyName{
+    background:#fff;
+}
+.ylyIntroduct{
+    display:flex;
+    display:-webkit-box;
+    padding:.5rem;
+    background:#FAFAFA;
+}
+.ylyImg{
+    display:block;
+    width:6.5rem;
+    margin-right:.5rem;
+}
+.ylyDetails{
+    width:12.5rem;
+}
+.ylyDetails>p{
+    font-size:.9rem;
+}
+.ylyDetails>p>span{
+    color:#999999;
+}
+.ylyDetails>p>b{
+    font-weight:400;
+}
+.noVisit{
+    color:#44A1D1;
+}
+.yljgOrderFooter{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display:flex;
+    display:-webkit-flex;
+    height:3.5rem;
+    border-top:1px solid #D4D4D4;
+}
+.allCheck{
+    width:60%;
+    line-height:3.5rem;
+    background:#fff;
+    padding-left:.5rem;
+}
+.allCheck>b{
+    font-weight:400;
+    font-size:1rem;
+}
+.delete{
+    width:40%;
+    line-height:3.5rem;
+    background:#FF0000;
+    color:#fff;
+    text-align:center;
+}
+.activeFirstNav{
+    background:#ff6600;
+    color:#fff;
+}
+.activeSecondNav{
+    color:#ff6600;
+    border-bottom:2px solid #ff6600;
+}
+.footerPopup{
+    display:none;
+}
+.visited{
+    color:#5FA860;
+}
+.end{
+    color:#FF0000;
+}
+.container{
+    margin-top:5.5rem;
+}
+.container>ul{
+    display:none;
+}
+.container>ul:first-child{
+    display:block;
+}
+.editorState{
+    color:#fff;
+    line-height:3rem;
+    text-align:right;
+}
+/*养老已参观评价样式*/
+.evaluateBox{
+    display:flex;
+    display:-webkit-box;
+    margin-top:.5rem;
+    background:#fff;
+    height:3rem;
+}
+.evaluateBox>a{
+    display:block;
+    flex:1;
+    -webkit-box-flex:1;
+    text-align:center;
+    height:inherit;
+    line-height:3rem;
+}
+.colorNormal{
+    color:#000;
+}
+.evaluteIco{
+    display:inline-block;
+    width:1rem;
+    position:relative;
+    top:.2rem;
+    margin-right:.2rem;
+}
+.colorChecked{
+    color:#ff6600;
+}
+.evaluateContentBox{
+    margin-top:.5rem;
+    background:#fff;
+    padding:.5rem;
+}
+.evaluateContent{
+    display:block;
+    width:19rem;
+    padding:.5rem;
+    font-size:.8rem;
+}
+.yljgVisitedEvaluateFooter{
+    position:fixed;
+    bottom:0;
+    height:3.5rem;
+    line-height:3.5rem;
+    color:#fff;
+    font-size:1.2rem;
+    text-align:center;
+    z-index:50;
+    background:#ff6600;
+    width:100%;
+}
+/*入驻单未付款样式*/
+.rzPeopleInfo{
+    margin-top:.5rem;
+}
+.rzPeopleInfoTitle{
+    height:2.5rem;
+    line-height:2.5rem;
+    padding-left:.5rem;
+    background:#fff;
+}
+.allPeopleInfo{
+    background:#FAFAFA;
+    padding:0 .5rem;
+}
+.personageInfo{
+    border-bottom:1px solid #EFEFEF;
+    padding:.5rem 0;
+}
+.personageInfo>p{
+    line-height:1.8rem;
+}
+.rzNopayFooter,.rzyfkFooter{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:3.5rem;
+    z-index:50;
+    display:flex;
+    display:-webkit-box;
+}
+.rzNopayFooter>a,.rzyfkFooter>a{
+    display:block;
+    flex:1;
+    -webkit-box-flex:1;
+    height:inherit;
+    line-height:3.5rem;
+    text-align:center;
+}
+.rzNopayFooter>a:first-child,.rzyfkFooter>a:first-child{
+    background:#fff;
+    color:#000;
+    font-size:.8rem;
+}
+.rzNopayFooter>a:first-child>span,.rzyfkFooter>a:first-child>span{
+    color:#ff6600;
+    font-size:1.2rem;
+}
+.rzNopayFooter>a:nth-child(2){
+     background:#CCCCCC;
+     color:#000;
+    font-size:1rem;
+ }
+.rzNopayFooter>a:nth-child(3){
+    background:#ff6600;
+    color:#fff;
+    font-size:1rem;
+}
+.rzyfkFooter>a:nth-child(2){
+     color:#fff;
+     background:#ff6600;
+ }
+.rzyfkFooter>a:nth-child(3){
+    color:#fff;
+    background:#FE0000;
+}
+/*售后样式*/
+.refundOrder{
+    margin-top:.5rem;
+    background:#fff;
+}
+.typeOfService{
+    padding:.5rem;
+}
+#seclectType{
+    width:6rem;
+    height:1rem;
+    font-size:.8rem;
+}
+.returnMoney{
+    padding:.5rem;
+}
+.returnMoney>p{
+    border-bottom:1px solid #EFEFEF;
+    width:7rem;
+    padding:.2rem;
+    display:inline-block;
+}
+.returnMoney>p>input{
+    width:5rem;
+    border:none;
+    border-radius:0;
+    margin-left:.5rem;
+    height:1rem;
+    position:relative;
+    font-size:1rem;
+    background:#FAFAFA;
+}
+.bgLightGray{
+    background:#FAFAFA;
+}
+.returnMoney>span{
+    font-size:.75rem;
+    color:#999999;
+}
+.returnCause{
+    padding:.5rem;
+}
+.returnCause>textarea{
+    vertical-align:top;
+    padding:.5rem;
+    width:14rem;
+    font-size:1rem;
+}
+.afterSaleFooter,.afterSale2Footer{
+    height:3.5rem;
+    line-height:3.5rem;
+    font-size:1.2rem;
+    color:#fff;
+    background:#FE0000;
+    text-align:center;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    z-index:50;
+}
+.refundDetails{
+    padding:0 .5rem;
+}
+.refundDetails>p{
+    padding-top:.5rem;
+}
+.typeOf{
+    font-size:1rem;
+}
+.typeOf>b{
+    font-weight:400;
+}
+.refundMoney2{
+    font-size:1rem;
+}
+.refundMoney2>i{
+    font-style:normal;
+    color:#FF431C;
+}
+.returnCause2{
+    font-size:1rem;
+}

@@ -1,0 +1,242 @@
+
+.secondClassify{
+    font-size:1rem;
+    font-weight:400;
+    color: #666666;
+    margin-top:.2rem;
+}
+.alreadyOrder{
+    text-align:center;
+    font-size:1rem;
+    padding:.5rem 10px;
+    border-bottom:.5rem solid #eef2f3;
+}
+.alreadyOrder>span{
+    color:#ff6600;
+}
+.jjhlGsCommentNav{
+    display:flex;
+    display:-webkit-box;
+    width:100%;
+}
+.jjhlGsCommentNav>a{
+    display:block;
+    width:50%;
+    text-align:center;
+    padding:.5rem 0;
+    color:#fff;
+}
+.commentList{
+    border-bottom:1px solid #f0f0f0;
+    padding-bottom:5px;
+}
+.commentList:last-child{
+    border-bottom:none;
+}
+.serviceDate{
+    display:flex;
+    display:-webkit-box;
+    margin:.5rem 0;
+}
+.serviceDate>span{
+    display:block;
+    width:45%;
+}
+.serviceDate>b{
+    display:block;
+    width:10%;
+}
+.jjhlDateSelect{
+    display:flex;
+    display:-webkit-box;
+    padding-bottom:1rem;
+}
+.jjhlDateSelect>input,.jjhlDateSelect>b{
+    display:block;
+}
+.jjhlDateSelect>input{
+    -webkit-appearance: none;
+    border:1px solid #E6E6E6;
+    height:1.5rem;
+    line-height:normal;
+}
+/*�Ӽһ���˾��ҳ��ʽ*/
+.jjhlIndexBanner{
+    position:relative;
+}
+.mc{
+    width:100%;
+    height:inherit;
+    background-color:rgba(0,0,0,0.2);
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:500;
+}
+.mcContent{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    display:flex;
+    display:-webkit-box;
+    height:3rem;
+}
+.mcContentLeft{
+    width:60%;
+    position:relative;
+}
+.mcContentRight{
+    width:40%;
+    display:flex;
+    display:-webkit-box;
+}
+.mcContentLeft>a{
+    display:inline-block;
+    width:3rem;
+}
+.mcContentLeft>b{
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 1.5rem;
+    width: 1px;
+    top: .8rem;
+    background: #B9B6B4;
+}
+.mcContentLeft>div{
+    display: inline-block;
+    position: relative;
+    top: -.6rem;
+
+}
+.jjhlCompanyName{
+    font-size:1rem;
+    font-weight:400;
+    color:#fff;
+}
+.jjhlCompanyNumber{
+    font-size:.65rem;
+    color:#fff;
+    -webkit-text-size-adjust:none;
+}
+.mcContentRight>div{
+    padding-left:.5rem;
+    position: relative;
+    top: .35rem;
+}
+.companyScore{
+    font-size:1rem;
+    color:#fff;
+}
+.scoreMethod{
+    color:#fff;
+    font-size:.65rem;
+}
+.joinCollect{
+    color: #fff;
+    font-size: .8rem;
+    background:#ff6600;
+    padding: .25rem;
+    border-radius: .2rem;
+    margin-left: .5rem;
+    position: relative;
+    top: .8rem;
+}
+.jjhlCompanyServiceNav{
+    display:flex;
+    display:-webkit-box;
+    width:100%;
+    z-index:500;
+    background:#fff;
+    border-bottom:0.5rem solid #f0f0f0;
+}
+.jjhlCompanyServiceNav>a{
+    display:block;
+    width:33.33%;
+    text-align:center;
+}
+.jjhlCompanyServiceNav span{
+    display:block;
+    width:1.5rem;
+    margin:0 auto;
+    height:2.5rem;
+    padding:.5rem 0;
+}
+.companyServiceText{
+    color:#999999;
+    font-size:.8rem;
+    padding-bottom:.4rem;
+}
+.companyServiceTextChange{
+    color:#ff6600;
+}
+.serviceClassify{
+    overflow-x: scroll;
+    min-width: 100vw;
+    display: flex;
+    display: -webkit-box;
+}
+.serviceClassify::-webkit-scrollbar{
+    display:none;
+}
+.serviceClassify>a{
+    display:block;
+    color: #fff;
+    font-size: 1rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 15px;
+}
+.clickTextdecoration{
+    border-bottom:3px solid #ff6600;
+}
+.companyIntroductionTitle{
+    margin:0 10px;
+    padding:.5rem 0;
+    border-bottom:1px solid #E1E1E1;
+}
+.companyIntroductionTitle>h2{
+    font-size:1.2rem;
+    font-weight:400;
+}
+.companyIntroductionTitle>a{
+    color:#469c48;
+    position:relative;
+    top:.1rem;
+}
+.companyIntroductionContent{
+    color:#999999;
+    padding:10px;
+    font-size:.9rem;
+    text-indent:1.8rem;
+}
+.serviceContent{
+    display:none;
+}
+.serviceContent:first-child{
+    display:block;
+}
+/*居家护理*/
+.jjhl_body{background:#fafafa;}
+.jjhl_company{height:2.5rem;line-height:2.5rem;background:#fff;padding:0 10px;}
+.hgtjContentBox>ul:nth-of-type(1)>.jjhl_company{margin-top:12px;}
+.jjhl_company>a{display:block;color:#333;font-size:1rem;}
+.jjhl_company>a>img{width:1.25rem;height:1.125rem;margin-right:0.625rem;vertical-align: middle;margin-bottom:5px;}
+.jjhl_company_con{border-bottom:10px solid #f0f0f0 !important;padding:.8rem 10px !important;margin-left:0 !important;margin-right:0 !important;}
+
+/*居家护理-规格规格选择*/
+.jjhlDateSelect .jjhlDateB{width:10%;text-align:center;font-weight: 200;color:#ccc;display:none;}
+.jjhlDateSelect .jjhlDateB+input{display:none;}
+.serviceDate>span:nth-of-type(2){display:none;}
+.jjhlDateSelect>input{font-size:1rem;text-indent:10px;font-family: "Microsoft YaHei", sans-serif;width:45%;background:#fff url(../img/w102.png) 95% center no-repeat;background-size:1.1875rem 1.125rem;}
+.jjhlDateSelect>input:nth-of-type(1){width:100%;background:#fff url(../img/w102.png) 98% center no-repeat;background-size:1.1875rem 1.125rem;}
+.jjhl_gg_sel>select{width:3.5rem;border:1px solid #ccc;height:1.5rem;line-height:1.5rem;font-size:1rem;font-family: "Microsoft YaHei", sans-serif;outline:none;text-indent:10px;background:#fff;}
+
+/*居家护理-公司首页*/
+.jjhl_allService{border-bottom:1px solid #f1f1f1;height:3rem;}
+.jjhl_allService>a{color:#333;}
+.jjhl_allService>a.s_current{color:#469c48;background:url(../img/w103.png) center bottom no-repeat;background-size:1.1875rem 0.625rem;}
+.jjhl_jjhl_allService_con>ul:first-child~ul{display:none;}
+
+

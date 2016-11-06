@@ -1,0 +1,653 @@
+.myBody{
+    background:#F0F0F0;
+}
+.myHeader{
+    height:8rem;
+    background:#469c48;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:50;
+}
+.setBtn{
+    position:absolute;
+    top:.5rem;
+    right:10px;
+    color: #ffffff;
+    font-size:1rem;
+}
+
+.setBtn img{ width:1.5rem; height:1.5rem; margin-top:.6rem; margin-right:.5rem;}
+.headPortrait{
+    display:block;
+    width:4rem;
+    margin:0 auto;
+    padding:1.3rem 0 .5rem;
+}
+.headPortrait>img{
+    border-radius:50%;
+}
+.myName{
+    text-align:center;
+    font-size:.75rem;
+    color:#fff;
+}
+.personalInformation{
+    display:flex;
+    display:-webkit-box;
+    padding:.5rem 0;
+    background:#fff;
+    margin-top:8rem;
+}
+.information,.balance{
+    display:block;
+    width:50%;
+    text-align:center;
+}
+.balance{
+    border-right:1px solid #d1d1d1;
+}
+.balanceMoney{
+    color:#fc6259;
+    font-size:1.2rem;
+}
+.balanceMoney>span{font-size:0.8rem;}
+.informationCount{
+    color: #faae50;
+    font-size:1.2rem;
+}
+.personalInformation div{
+    color:#999999;
+    font-size:1rem;
+}
+.myList{
+    position:relative;
+    display:block;
+    margin-top:.5rem;
+    background:#fff;
+    padding:.5rem;
+    overflow:hidden;
+}
+.ico{
+    display: inline-block;
+    width: 1.6rem;
+    position: relative;
+    top: .15rem;
+}
+.myListText{
+    color:#000;
+    font-style:normal;
+    font-size:1rem;
+    position:relative;
+    top:-.3rem;
+    margin-left:.5rem;
+}
+.myList>i,.myListBorder>i{
+    position:absolute;
+    right:.5rem;
+    width:.5rem;
+    top:1rem;
+}
+.myListBorder>i{
+    right:0;
+}
+.order{
+    padding-bottom:.3rem;
+    border-bottom:1px solid #E7E7E7;;
+}
+.order>p{
+    position:absolute;
+    right:.5rem;
+    top:.9rem;
+    color:#999999;
+    font-size:.8rem;
+}
+.order>p>i{
+    display:inline-block;
+    width:.5rem;
+    margin-left:.5rem;
+    position:relative;
+    top:.15rem;
+}
+.orderList{
+    display:flex;
+    display:-webkit-box;
+    padding:.8rem 1rem .3rem;
+    margin-right:-1.5rem;
+}
+.orderList>b{
+    display:block;
+    width:50%;
+    padding-right:1.5rem;
+    background-clip:content-box;
+}
+.myOrderBox{
+    display:flex;
+    display:-webkit-box;
+    padding:.5rem 2rem;
+    background:#fff;
+}
+.myOrderBox>a{
+    display:block;
+    width:7rem;
+}
+.myOrderBox>a>img{
+    width:3rem;
+    height:3rem;
+    margin:.5rem 2rem .2rem 2rem;
+}
+.myOrderBox>a:first-child{
+    background: #469c48;
+    border-radius: 5px;
+    margin-right:2rem;
+}
+.myOrderBox>a:last-child {
+    background: #ff6600;
+    border-radius: 5px;
+}
+.myOrderBox>a>p{
+    text-align:center;
+    color:#fff;
+    font-size:.8rem;
+    padding-bottom:.5rem;
+}
+/*����ҳ����ʽ��ʼ*/
+.myListBorder{
+    border-bottom:1px solid #E7E7E7;
+    display:block;
+    position:relative;
+    margin:0 .5rem;
+    padding:.5rem 0;
+
+}
+/*����ҳ����ʽ����*/
+/*���˻�����Ϣ��ʽ��ʼ*/
+.personalInformationList{
+    display:flex;
+    display:-webkit-box;
+    margin:0 0 0 .5rem;
+    padding:.5rem .5rem .5rem 0;
+    border-bottom:1px solid #E7E7E7;
+    color:#000;
+}
+.personalInformationList>div{
+    width:50%;
+}
+.personalInformationList>div.personalInformationCommonLeft{
+    width:40%;
+}
+.personalInformationList>div.personalInformationCommonRight{
+    width:60%;
+}
+.personalInformationListLeft{
+    text-align:left;
+    color:#000;
+    font-size:1rem;
+    padding-top:1.2rem;
+}
+.personalInformationListRight{
+    text-align:right;
+}
+.personalInformationListRight>span{
+    display:inline-block;
+    width:3.75rem;
+    margin-right:.5rem;
+}
+.personalInformationListRight>i{
+    display:inline-block;
+    width:.5rem;
+    position:relative;
+    top:-1.2rem;
+}
+.personalInformationCommonRight{
+    text-align:right;
+}
+.personalInformationCommonRight>b{
+    font-weight:400;
+    margin-right:.5rem;
+}
+.personalInformationCommonRight>i{
+    display:inline-block;
+    width:.5rem;
+    position:relative;
+    top:.15rem;
+}
+.autoMiddle{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    line-height:4rem;
+    text-align:center;
+    background:rgba(40,40,40,.8);
+    color:#fff;
+    height:4rem;
+    width:12rem;
+    border-radius:.3rem;
+}
+.editorSex{
+    position:fixed;
+    top:0;left:0;right:0;bottom:0;
+    margin:auto;
+    width:10rem;
+    height:7rem;
+    background:rgba(40,40,40,.8);
+    border-radius:.3rem;
+}
+.editorSex>h1{
+    font-weight:400;
+    font-size:1.2rem;
+    text-align:center;
+    color:#fff;
+    padding:.5rem 0;
+    border-bottom:1px solid #fff;
+}
+.editorSex>p{
+    font-size:1rem;
+    text-align:center;
+    color:#fff;
+    padding:.3rem 0;
+    border-bottom:1px solid #fff;
+}
+.editorSex>p:last-child{
+    border-bottom:none;
+}
+.personalInformationFooter{
+    font-size:1.5rem;
+    color:#fff;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:#ff6600;
+    height:3.5rem;
+    line-height:3.5rem;
+}
+.whiteBgColor{
+    background:#fff;
+}
+/*���˻�����Ϣ��ʽ����*/
+/*������ϵ����ʽ��ʼ*/
+.contactList{
+    margin-bottom:.5rem;
+    background:#fff;
+}
+.contactInfo>p,.addressInfo>p{
+    line-height:1.8rem;
+    font-size:1rem;
+}
+.contactInfo,.addressInfo{
+    padding:.5rem;
+    border-bottom:1px solid #F2F2F2;
+}
+.userOperate{
+    padding:0 .5rem;
+}
+.userOperate>a,.userOperate>div{
+    padding:.5rem 0;
+}
+.defaultContacts>i{
+    display:inline-block;
+    width:1rem;
+    margin-right:.5rem;
+}
+.defaultText{
+    color:#000;
+}
+.defaultTextChange{
+    color:#ff6600;
+}
+.editorIcoBox{
+    color:#000;
+    margin-right:1rem;
+}
+.editorIcoBox>i{
+    display:inline-block;
+    width:1rem;
+    height:1rem;
+    background:url("../img/w78.png") no-repeat 0 0;
+    background-size:cover;
+    margin-right:.2rem;
+}
+.deleteIcoBox>i{
+    display:inline-block;
+    width:1rem;
+    height:1.1rem;
+    background:url("../img/w79.png") no-repeat 0 0;
+    background-size:cover;
+    margin-right:.2rem;
+}
+.noContacts>span{
+    display:block;
+    width:5rem;
+    margin:2rem auto;
+}
+.noContacts>p{
+    text-align:center;
+    font-size:1.2rem;
+
+}
+/*������ϵ����ʽ����*/
+/*�����ϵ����ʽ��ʼ*/
+.infoList{
+   /*padding:1rem 0;*/
+    border-bottom:1px solid #DEDEDE;
+    display:flex;
+    display:-webkit-box;
+    margin:0 .5rem;
+    padding:1rem 0 0;
+    height:3.2rem;
+    color:#000;
+}
+.infoList>span{
+    display:block;
+    width:4rem;
+    text-align:justify;
+    margin-right:2rem;
+}
+.infoList>span:after{
+    content:".";
+    display: inline-block;
+    width:100%;
+    overflow:hidden;
+    height:0;
+}
+.addContactsInfoForm input{
+    border:none;
+    background:#fff;
+	font-size:1.2em;
+	color:#666;	
+}
+.idType{
+    font-weight:400;
+}
+.defaultContactText,.infoList>span.defaultIco{
+    width:50%;
+    display:block;
+}
+.defaultContactText{
+    text-align:left;
+}
+.defaultIco{
+    text-align:right;
+}
+.defaultIco>img{
+    width:1rem;
+}
+.resetSave{
+    margin:0 .5rem 0;
+    padding:4rem 0 1rem;
+}
+.reset,.save{
+    width:49%;
+    height:3rem;
+    line-height:3rem;
+    border-radius:.3rem;
+    background:none;
+    border:0;
+    color:#fff;
+    font-size:1.2rem;
+}
+.reset{
+    margin-right:2%;
+    background:#999999;
+}
+.save{
+    background:#ff6600;
+}
+/*�����ϵ����ʽ����*/
+/*���õ�ַ��ʽ��ʼ*/
+.addressInfo>div{
+    height:3rem;
+    font-size:1rem;
+    line-height:1.5rem;
+}
+#setDefaultContacts{
+    border-bottom:none;
+}
+/*���õ�ַ��ʽ����*/
+/*��ӵ�ַ��ʽ��ʼ*/
+.infoList>em,.infoList>.rightArrowIco{
+    display:block;
+    width:50%;
+}
+.infoList>em{
+    font-style:normal;
+    font-size:1rem;
+}
+.infoList>.rightArrowIco{
+    font-size:.8rem;
+    text-align:right;
+}
+.rightArrowIco>b{
+    display:inline-block;
+    width:.5rem;
+    position:relative;
+    top:.15rem;
+}
+.detailsAddress{
+    width:100%;
+    border:none;
+    background:#fff;
+    padding:.5rem;
+    font-size:1rem;
+}
+.areaList{
+    color:#000;
+    font-size:1rem;
+    display:flex;
+    display:-webkit-box;
+    width:100%;
+    padding:.8rem;
+    border-bottom:1px solid #DEDEDE;
+    background:#fff;
+}
+.areaList:last-child{
+    border-bottom:none;
+}
+.areaList>p{
+    display:block;
+    width:50%;
+}
+.areaList>p:nth-child(1){
+    text-align:left;
+}
+.areaList>p:nth-child(2){
+    text-align:right;
+}
+.areaList>p:nth-child(2)>b{
+    display:inline-block;
+    width:.5rem;
+}
+/*��ӵ�ַ��ʽ����*/
+/*�޸ĵ�¼������ʽ��ʼ*/
+.originalPassword{
+    margin-top:.5rem;
+    background:#fff;
+    padding:0 .5rem;
+    display: flex;
+    display: -webkit-box;
+    height: 3.2rem;
+    line-height:3.2rem;
+}
+.originalPassword>input{
+    font-size:.9rem;
+}
+.newPasswordModule{
+    margin:.5rem 0;
+    background:#fff;
+    padding:0 .5rem;
+}
+.newPassword>input,.surePassword>input{
+    font-size:.9rem;
+}
+.newPassword{
+    border-bottom:1px solid #E2E2E2;
+    padding:.8rem 0;
+    display: flex;
+    display: -webkit-box;
+    height: 3.2rem;
+}
+.surePassword{
+    padding:.8rem 0;
+    display: flex;
+    display: -webkit-box;
+    height: 3.2rem;
+}
+.originalPassword>span,.newPassword>span,.surePassword>span{
+    display: block;
+    width: 4rem;
+    text-align: justify;
+    margin-right: 2rem;
+}
+.originalPassword>span:after,.newPassword>span:after,.surePassword>span:after {
+    content: ".";
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+}
+/*.code{
+    height:3.2rem;
+    background:#fff;
+    padding:0 .5rem;
+}
+.code>input{
+    height:1rem;
+    margin-top:1.1rem;
+    font-size:1rem;
+    width:10rem;
+}*/
+#getCode{
+    height:2rem;
+    margin-top:.6rem;
+    border:none;
+	
+    background:#288BCE;
+    font-size:1rem;
+    width:8rem;
+    text-align:center;
+    color:#fff;
+    border-radius:.2rem;
+}
+.sureBtn{
+    height:3rem;
+    line-height:3rem;
+    font-size:1.5rem;
+    color:#fff;
+    background:#ff6600;
+    display:block;
+    margin:1.5rem .5rem 0;
+    border:none;
+    text-align:center;
+    border-radius:.3rem;
+}
+/*�޸ĵ�¼������ʽ����*/
+/*�޸�֧��������ʽ��ʼ*/
+.originalPayPasswordText{
+    padding:2rem 0;
+    text-align:center;
+    font-size:1rem;
+    color:#999999;
+}
+#payPassword{
+    display:block;
+    margin:0 auto;
+}
+/*�޸�֧��������ʽ����*/
+/*�ʽ������ʽ��ʼ*/
+.moneyIco {
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+.myBalance {
+    text-align: center;
+    margin-top:1rem;
+    font-size:1.2rem;
+    -webkit-user-select: none;
+}
+.totalPrice {
+    text-align: center;
+    font-size:2.25rem;
+    -webkit-user-select: none;
+}
+.txBtn,.czBtn{
+    display: block;
+    margin:0 .5rem;
+    text-align: center;
+    height:3rem;
+    line-height:3rem;
+    border-radius:.3rem;
+    color: #fff;
+    -webkit-user-select: none;
+    font-size:1.2rem;
+}
+.czBtn{
+    background:#479C49;
+    margin-top:1rem;
+}
+.txBtn{
+    background:#F1F1F1;
+    border:1px solid #CCCCCC;
+    margin-top:.5rem;
+    color:#000;
+}
+.fundManageBottom{
+    font-size:1rem;
+    color:#4498D3;
+    display:block;
+    text-align:center;
+    margin-top:5rem;
+}
+/*�ʽ������ʽ����*/
+
+
+/***��ֵ**/
+.cl9{ color:#999;}
+.bor-bttom{ border-bottom:solid 1px #d9d9db;}
+.blue{ color:#00a9f2;}
+.mt3{ margin-top:3rem;}
+.mt2{ margin-top:2rem;}
+.p5{ padding:.5rem;}
+.m1{ margin:1rem;}
+.m2{ margin:2rem;}
+.white{ background:#fff; }
+.cl{ clear:both;}
+img{ display: block;
+    height: auto;
+    width: 100%;}
+.p5{ padding:.5rem;}
+.p1{ padding:1rem;}
+.grzx-cz{ padding:.5rem 0;  background:#f0f0f0;}
+.grzx-cz1{ padding:.5rem; height:4.5rem; background:#fff; position:relative;}
+.grzx-cz1 dl{ clear:both; background:#fff;}
+.grzx-cz1 dl dt{ float:left; width:4rem;}
+.grzx-cz1 dl dt img{ width:2.9583rem;}
+.grzx-cz1 dl dd{ float:left;}
+.grzx-cz1 dl dd b{ font-weight:normal;}
+.grzx-cz1 dl dd p{ color:#999;}
+.r-next{ position:absolute; z-index:11; right:5%; top:1.7rem; width:.6rem;}
+.grzx-cz2 span{ padding-right:.8rem;}
+.input00{   background:#fff none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    font-size: 1.2em; color:#333;}
+.grzx-cz3{ margin:2rem .5rem;  }	
+.grzx-cz3 a{ color:#fff;background:#ff6600; display:block; text-align:center; border-radius:.3rem; padding:.8rem 0; cursor:pointer; font-size:1rem;  }	
+	
+	
+.grzx-tx2 span{ padding-right:.8rem; font-size:2rem;}
+.input00{   background:#fff none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    font-size: 1.2em; color:#333;}	
+	
+	
+/***�ʽ���ϸ*/
+.zj{ line-height:1.8rem; border-bottom: solid 1px #efefef; height:4.6rem; clear:both; color:#666;}
+.zj b{ font-weight:normal; font-size:1.3rem; margin-bottom:.5rem;}	
+
